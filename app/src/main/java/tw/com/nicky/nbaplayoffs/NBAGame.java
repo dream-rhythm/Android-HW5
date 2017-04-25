@@ -1,0 +1,19 @@
+package tw.com.nicky.nbaplayoffs;
+
+/**
+ * Created by user on 2017/4/25.
+ */
+
+public class NBAGame {
+    String T1Name,T2Name;
+    int T1Point,T2Point;
+    int T1Pic,T2Pic;
+    NBAGame(int T1Pic,String T1Name,int T1Point,int T2Pic,String T2Name,int T2Point){
+        this.T1Name=T1Name;
+        this.T1Pic=T1Pic;
+        this.T1Point=T1Point;
+        this.T2Name=T2Name;
+        this.T2Pic=T2Pic;
+        this.T2Point=T2Point;
+    }
+}
